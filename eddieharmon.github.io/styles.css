@@ -1,0 +1,22 @@
+body {
+  background: yellow;
+}
+
+p.oblique {
+  font-style: oblique;
+}
+p1 {
+  background-color: #800000;
+}
+
+p2 {
+  background-color: #FFA500;
+  border: 10px; solid red;
+}
+
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+}
